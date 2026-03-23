@@ -2,11 +2,15 @@ import './App.css'
 
 function App() {
 
+  function handleSubmit(){
+    
+  }
+
   return (
     <div className='app'>
       <h1>Cadastro de Usuarios</h1>
 
-      <form>
+      <form onSubmit={handleSubmit}>
       <input placeholder='Nome' 
         type='text'
       />
